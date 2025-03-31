@@ -1,0 +1,12 @@
+// 1. Overschrijf eerst de Bootstrap variabelen die je wilt aanpassen.
+//   Bijvoorbeeld de primaire kleur:
+$primary: #ff5722; // Feloranje
+
+// 2. Importeer vervolgens Bootstrap zelf.
+@import "../bootstrap-5.3.3/scss/bootstrap.scss";
+
+// 3. Voeg desgewenst je eigen aanvullende styles toe:
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+}
